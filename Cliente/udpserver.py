@@ -1,6 +1,7 @@
 ##!/usr/bin/env python
 ## -*- coding: utf-8 -*-
-
+# UDPServer lo usamos unicamente para probar al cliente. Dejo el código medio
+# chancho solo por si a alguien le parece util
 import socket
 import select
 import time
