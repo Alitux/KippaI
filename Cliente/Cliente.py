@@ -4,7 +4,6 @@
 # ---------------------------
 # Importacion de los módulos
 # ---------------------------
-
 import pygame
 from pygame.locals import *
 import os
@@ -77,6 +76,7 @@ def recepcion_paquetes():
     ##FIN RECEPCION DE PAQUETES##
 
 def latencia():
+    #FIXME: Corregir esta función que anda muy mal. :S
     pingueo=commands.getoutput("ping -q -c2 "+str(UDP_HOST))
     latencia=pingueo.split("/")[6] #Se extrae latencia
     return latencia
@@ -162,6 +162,7 @@ class Motor(pygame.sprite.Sprite):
 
 class Camara(pygame.sprite.Sprite):
     "ImagenCamara"
+    #TODO: Se debería mejorar la elección de cámara, así no se toca el código
     elegida=0 #Por defecto es la cámara 0 o /dev/video0
     estado=False #Estado de cámar(False=Apagada, True=Encendida)
     norma="PALN" #Norma(Hay que ver como se puede cambiar)
@@ -206,10 +207,12 @@ class Camara(pygame.sprite.Sprite):
             imagen=SimpleCV.Image("Imagenes/cam_principal_apagada.png").toPygameSurface()
         return imagen
 
-    def sacar_foto(self,archivo):
+    def sacar_foto(self,archivo): #OPTIMIZE: Es necesario mejorar esta función
         self.archivo=archivo
         imagen=self.cam.getImage()
         imagen.save(archivo)
+
+    #TODO: Trabajar sobre la función de volcado de video a un archivo
 
 
 
@@ -295,6 +298,7 @@ def main():
                     retroceso=False
 
             if keys[K_UP]:
+                #FIXME: Evitar la combinación de avante/retroceso y caida Babor estribor
                 if avante==False:
                     avante=True
                     envio_paquetes(str(-8))
