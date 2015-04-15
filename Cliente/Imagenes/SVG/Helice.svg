@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- created using Magelan(sourceforge) on sam. juin 18 03:52:49 2011 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="foo"
+   viewBox="0 0 300 500"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Helice.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="1.3350176"
+     inkscape:cx="159.76528"
+     inkscape:cy="323.14391"
+     inkscape:window-x="-4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="foo" />
+  <title
+     id="title3">new shape using jsilhouette</title>
+  <defs
+     id="defs5">
+    <path
+       id="lauburu"
+       d="m159.16 98.93l-9.78 5.12-8.28 6.78-6.72 8.15-4.97 9.18-3.15 9.97-1.21 10.48 0.89 10.66 3.11 10.61 5.14 9.75 6.77 8.31 8.12 6.69 9.19 5 9.98 3.14 10.47 1.2 10.66-0.89 10.62-3.08-10.64 1.99-10.23-2.17-8.66-5.85-5.95-9.03-2-10.64 2.17-10.22 5.86-8.67 9.03-5.94 9.03-5.97 5.83-8.65 2.17-10.23-1.98-10.64-5.97-9.04-8.64-5.82-10.22-2.18-10.64 2zm70.95 30.12l-9.78 5.14-8.28 6.78-6.72 8.11-4.97 9.19-3.15 9.98-1.19 10.47 0.89 10.66 3.08 10.62-1.99-10.64 2.16-10.23 5.86-8.66 9.03-5.95 10.64-2 10.22 2.17 8.66 5.86 5.95 9.03 5.96 9.03 8.66 5.83 10.21 2.17 10.65-1.98 9.01-5.97 5.84-8.64 2.19-10.22-2-10.64-5.13-9.78-6.77-8.28-8.13-6.72-9.19-4.97-9.97-3.15-10.47-1.21-10.67 0.89-10.6 3.11zm-116.13 76.3l-9.04 5.95-5.82 8.67-2.18 10.22 1.99 10.64 5.12 9.77 6.78 8.29 8.15 6.68 9.18 5 9.97 3.16 10.48 1.19 10.66-0.91 10.61-3.07 9.75-5.15 8.31-6.78 6.69-8.13 5-9.17 3.14-9.99 1.2-10.45-0.89-10.69-3.08-10.58 1.99 10.63-2.17 10.22-5.85 8.65-9.03 5.97-10.64 1.99-10.22-2.19-8.67-5.83-5.94-9.03-5.97-9.03-8.65-5.86-10.23-2.16-10.64 1.99zm86.02-5.35l10.63-2 10.22 2.16 8.65 5.86 5.97 9.03 1.99 10.64-2.19 10.22-5.83 8.66-9.03 5.95-9.03 5.96-5.86 8.66-2.16 10.21 2 10.65 5.94 9.01 8.67 5.84 10.22 2.19 10.64-2 9.77-5.12 8.29-6.78 6.68-8.13 5-9.19 3.16-9.97 1.19-10.47-0.91-10.67-3.07-10.6-5.15-9.78-6.78-8.31-8.13-6.69-9.17-4.97-9.97-3.15-10.47-1.19-10.69 0.86-10.58 3.11zm101.04-40.84l-5.12-9.78-6.78-8.28-8.13-6.72-9.19-4.97-9.97-3.15-10.47-1.21-10.67 0.89-10.6 3.11-9.78 5.14-8.31 6.77-6.69 8.12-4.97 9.19-3.15 9.98-1.19 10.47 0.89 10.66 3.08 10.62-1.99-10.64 2.16-10.23 5.86-8.66 9.03-5.95 10.64-2 10.22 2.17 8.66 5.86 5.95 9.03 5.96 9.03 8.66 5.83 10.21 2.17 10.65-1.98 9.01-5.97 5.84-8.64 2.19-10.22-2-10.64zm-30.1 70.95l-5.15-9.78-6.78-8.28-8.13-6.72-9.17-4.97-9.99-3.15-10.45-1.19-10.69 0.89-10.59 3.08 10.64-1.99 10.22 2.16 8.65 5.86 5.97 9.03 1.99 10.64-2.19 10.22-5.83 8.66-9.03 5.95-9.03 5.96-5.86 8.66-2.16 10.21 1.99 10.65 5.95 9.01 8.67 5.84 10.22 2.19 10.64-2 9.77-5.13 8.29-6.77 6.68-8.13 5-9.19 3.16-9.97 1.19-10.47-0.91-10.67-3.07-10.6zm-76.31-116.13l-5.97-9.04-8.64-5.82-10.22-2.18-10.64 1.99-9.78 5.12-8.28 6.78-6.72 8.15-4.97 9.18-3.15 9.97-1.21 10.48 0.89 10.66 3.11 10.61 5.14 9.75 6.78 8.31 8.11 6.69 9.19 5 9.98 3.14 10.47 1.2 10.66-0.89 10.61-3.08-10.63 1.99-10.23-2.17-8.66-5.85-5.95-9.03-2-10.64 2.17-10.22 5.86-8.67 9.03-5.94 9.03-5.97 5.83-8.65 2.17-10.23-1.98-10.64zm5.37 86.02l1.97 10.63-2.17 10.22-5.83 8.65-9.03 5.97-10.64 1.99-10.22-2.19-8.67-5.83-5.95-9.03-5.96-9.03-8.65-5.86-10.23-2.16-10.64 2-9.04 5.94-5.82 8.67-2.18 10.22 1.99 10.64 5.12 9.77 6.78 8.29 8.15 6.68 9.18 5 9.97 3.16 10.48 1.19 10.66-0.91 10.61-3.07 9.75-5.15 8.31-6.78 6.69-8.13 5-9.17 3.14-9.97 1.2-10.47-0.89-10.69-3.08-10.58z" />
+  </defs>
+  <g
+     style="fill:#ffff00;stroke:#000000;stroke-width:2"
+     id="g8"
+     transform="translate(-59.322034,-76.271186)"
+     inkscape:export-filename="/home/alitux/Documents/Ingeniería Pesquera/Tesis/ROV/Programación/Cliente/Imagenes/helice.png"
+     inkscape:export-xdpi="56"
+     inkscape:export-ydpi="56">
+    <use
+       xlink:href="#lauburu"
+       transform="matrix(0,1,-1,0,400,0)"
+       id="use10"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#ffff00" />
+    <use
+       xlink:href="#lauburu"
+       transform="matrix(-1,0,0,-1,400,400)"
+       id="use12"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#ffff00" />
+    <use
+       xlink:href="#lauburu"
+       transform="matrix(0,-1,1,0,0,400)"
+       id="use14"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#ffff00" />
+  </g>
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title />
+        <dc:date>2011-06-25T09:56:18</dc:date>
+        <dc:description>lauburu</dc:description>
+        <dc:source>https://openclipart.org/detail/147079/-by-bedesprez</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>bedesprez</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

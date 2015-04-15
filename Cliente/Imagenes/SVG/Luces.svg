@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    viewBox="0 0 99.474 75.188"
+    version="1.1"
+  >
+  <g
+      id="layer1"
+      transform="translate(-183.67 -109.12)"
+    >
+    <g
+        id="g4558"
+        transform="translate(9.3439 -91.419)"
+        stroke="#327dc8"
+        stroke-linecap="round"
+        stroke-width="5"
+        fill="none"
+      >
+      <path
+          id="path4213"
+          transform="translate(195.08 102.25)"
+          d="m26.769 158.31c44.447 0 44.447-25.661 44.447-25.661 0-26.867-44.952-26.867-44.952-26.867-9.512 15.163-10.995 35.405 0.50508 52.528z"
+      />
+      <path
+          id="path4215"
+          d="m182.03 214.99 29.045-5.1564 1.9643-0.38573"
+      />
+      <path
+          id="path4215-7"
+          d="m182.03 266.81 30.228-5.3913 2.0443-0.40331"
+      />
+      <path
+          id="path4215-6"
+          d="m182.03 228.33 23.368-4.4563 1.5804-0.33336"
+      />
+      <path
+          id="path4215-6-3"
+          d="m182.03 254.11 23.368-4.4563 1.5804-0.33336"
+      />
+      <path
+          id="path4215-6-3-6"
+          d="m182.03 240.89 21.476-3.8418 1.4524-0.2874"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >low beam light</dc:title
+        >
+        <dc:date
+          >2013-05-07T09:18:12</dc:date
+        >
+        <dc:description
+          >Icon for low beam light like found in cars</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/177852/low-beam-light-by-dblade82-177852</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >DBlade82</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >car</rdf:li
+            >
+            <rdf:li
+              >car light</rdf:li
+            >
+            <rdf:li
+              >icon</rdf:li
+            >
+            <rdf:li
+              >low beam</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

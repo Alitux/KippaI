@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    viewBox="0 0 64 64"
+    version="1.1"
+  >
+  <g
+      id="layer1"
+      transform="translate(0 -988.36)"
+    >
+    <g
+        id="g2832"
+      >
+      <g
+          id="g2833"
+        >
+        <path
+            id="path2829"
+            d="m7 999.36v43h50v-43h-50z"
+            fill="#e0e0e0"
+        />
+        <path
+            id="path2831"
+            d="m7 1007.4h50v30h-50v-30z"
+            fill="#6dc5dd"
+        />
+        <path
+            id="path2833"
+            d="m7 1009.4h8.0724c0.92759 0 1.9276 1 1.9276 2v22c0 1-1 2-2.1081 2h-7.8919v-26z"
+            fill="#404040"
+        />
+        <path
+            id="path2835"
+            d="m26 1034.4 9 9h22v-20l-10-10-1 18-20 3z"
+            fill-opacity=".19608"
+        />
+        <path
+            id="path2837"
+            d="m45 29c0 8.2843-6.7157 15-15 15s-15-6.7157-15-15 6.7157-15 15-15 15 6.7157 15 15z"
+            fill="#404040"
+            transform="matrix(.86667 0 0 .86667 9 997.23)"
+        />
+        <path
+            id="path2839"
+            fill="#e0e0e0"
+            d="m35 1007.4c-8.2843 0-15 6.7157-15 15s6.7157 15 15 15 15-6.7157 15-15-6.7157-15-15-15zm0 2c7.1797 0 13 5.8203 13 13s-5.8203 13-13 13-13-5.8203-13-13 5.8203-13 13-13z"
+        />
+        <path
+            id="path2841"
+            d="m50 1002.4h5v1h-5v-1z"
+            fill="#808080"
+        />
+        <path
+            id="path2843"
+            d="m15 16.685c0 1.278-1.05 2.315-2.346 2.315-1.2957 0-2.346-1.0366-2.346-2.3153s1.0504-2.3153 2.346-2.3153c1.2957 0 2.346 1.0366 2.346 2.3153z"
+            fill="#f77462"
+            transform="translate(-1 987.36)"
+        />
+        <path
+            id="path2845"
+            d="m7 1042.4h50v1h-50v-1z"
+            fill="#808080"
+        />
+        <path
+            id="path2847"
+            d="m15 998.36h5v1h-5v-1z"
+            fill="#bebebe"
+        />
+        <path
+            id="path2849"
+            d="m45 29c0 8.2843-6.7157 15-15 15s-15-6.7157-15-15 6.7157-15 15-15 15 6.7157 15 15z"
+            fill="#3c50ef"
+            transform="matrix(.73333 0 0 .73333 13 1001.1)"
+        />
+        <path
+            id="path2851"
+            fill-opacity=".19608"
+            d="m40 1022.4c0 2.7614-2.2386 5-5 5s-5-2.2386-5-5 2.2386-5 5-5 5 2.2386 5 5z"
+        />
+        <path
+            id="path2828"
+            d="m50 1003.4h5v1h-5v-1z"
+            fill="#fff"
+        />
+        <path
+            id="path2830"
+            d="m50 1004.4h5v1h-5v-1z"
+            fill="#808080"
+        />
+      </g
+      >
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >camera</dc:title
+        >
+        <dc:date
+          >2013-09-05T17:49:11</dc:date
+        >
+        <dc:description
+          >flash portable camera</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/183025/camera-f-by-crisg-183025</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >crisg</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >camera</rdf:li
+            >
+            <rdf:li
+              >collection</rdf:li
+            >
+            <rdf:li
+              >flat design</rdf:li
+            >
+            <rdf:li
+              >fotocamera</rdf:li
+            >
+            <rdf:li
+              >icon</rdf:li
+            >
+            <rdf:li
+              >making photos</rdf:li
+            >
+            <rdf:li
+              >object</rdf:li
+            >
+            <rdf:li
+              >simple</rdf:li
+            >
+            <rdf:li
+              >snapshot</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
