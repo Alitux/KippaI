@@ -9,7 +9,7 @@ La profundidad máxima de operación es de 40 mts. En futuro se espera que llegu
 
 La comunicación entre el cliente(operador) y el ROV se realiza mediante UDP.
 Por cuestiones de latencia la transmisión de imágenes se realiza mediante cable coaxil. La misma puede ser digitalizada mediante capturadora. En nuestro caso utilizamos una EasyCAP(05e1:0408 Syntek Semiconductor Co., Ltd STK1160 Video Capture Device) con resultados mas que satisfactorios. También se podría utilizar un monitor o cualquier pantalla con entrada RCA.
-Las especificaciones constructivas se liberarán en breve.
+Las especificaciones constructivas se liberarán en breve. Paciencia
 
 
 ### Descripción de contenido ###
@@ -23,4 +23,5 @@ Las especificaciones constructivas se liberarán en breve.
 - Volcado de video en un archivo local (Cliente)
 - Medición de latencia (Cliente)
 - Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra
-- Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento
+- Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento (Arduino)
+- Implementar DHCP en Arduino (Arduino)
