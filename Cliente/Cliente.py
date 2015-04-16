@@ -81,8 +81,8 @@ def latencia():
     global r_latencia
     r_latencia=""
     while True:
-        #pingueo=commands.getoutput("ping -q -c2 "+str(UDP_HOST))
-        pingueo=commands.getoutput("ping -q -c4 "+str("192.168.10.162"))
+        pingueo=commands.getoutput("ping -q -c2 "+str(UDP_HOST))
+        #pingueo=commands.getoutput("ping -q -c4 "+str("192.168.10.162")) #Para pruebas
         try:
             latencia=pingueo.split("/")[4] #Se extrae latencia
             r_latencia=latencia
