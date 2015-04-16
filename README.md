@@ -21,7 +21,6 @@ Las especificaciones constructivas se liberarán en breve. Paciencia
 
 - Captura de fotografía 
 - Volcado de video en un archivo local 
-- Medición de latencia
 
 ## A implementar -Arduino- ##
 

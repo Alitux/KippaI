@@ -6,11 +6,13 @@
 # ---------------------------
 import pygame
 from pygame.locals import *
+from threading import Thread
 import os
 import sys
 import socket
 import select
 import commands
+from time import sleep
 from SimpleCV import Camera, VideoStream
 ## Variables de conexion
 
@@ -76,10 +78,17 @@ def recepcion_paquetes():
     ##FIN RECEPCION DE PAQUETES##
 
 def latencia():
-    #FIXME: Corregir esta función que anda muy mal. :S
-    pingueo=commands.getoutput("ping -q -c2 "+str(UDP_HOST))
-    latencia=pingueo.split("/")[6] #Se extrae latencia
-    return latencia
+    global r_latencia
+    r_latencia=""
+    while True:
+        #pingueo=commands.getoutput("ping -q -c2 "+str(UDP_HOST))
+        pingueo=commands.getoutput("ping -q -c4 "+str("192.168.10.162"))
+        try:
+            latencia=pingueo.split("/")[4] #Se extrae latencia
+            r_latencia=latencia
+            time.sleep(5)
+        except IndexError:
+            r_latencia="SINRTA!"
 
 # -----------------------------------------------
 # Creamos los sprites (clases) de los objetos del juego:
@@ -238,8 +247,8 @@ def main():
     #pygame.display.toggle_fullscreen()
     # cargamos los objetos
     fondo = load_image("fondo_1366x768.png", IMG_DIR, alpha=False)
-    letra30 = pygame.font.SysFont("Arial", 30)
-    texto_coordenadas = letra30.render(str(coordenadas), True, (200,200,200), (0,0,0) )
+    letra20 = pygame.font.SysFont("Arial", 20)
+    texto_coordenadas = letra20.render(str(coordenadas), True, (200,200,200), (0,0,0) )
 
     luces=Luces()
     ##Creación de flechas y timón de profundidad
@@ -273,11 +282,22 @@ def main():
     motor_trasero_izquierdo.estado(False)
     motor_trasero_derecho.estado(False)
     # el bucle principal del juego
+    t_latencia=""
+    Thread(target=latencia,).start()
     while True:
         screen.blit(fondo,(0,0))
         clock.tick(10)
+        ##INICIO Medición de latencia
+        thr_latencia=Thread(target=latencia,).start()
+        #Se obtienen valores de latencia
+        if r_latencia=="": #Si no existe nada, se queda el anterior
+            t_latencia=t_latencia
+        else: #Si existe, se reemplaza por el nuevo
+            t_latencia=str(r_latencia)+" ms"
+        ##FIN Medición de Latencia
+        texto_coordenadas = letra20.render(str(pygame.mouse.get_pos()), True, (200,200,200), (0,0,0) )
+        texto_latencia = letra20.render(str(t_latencia), True, (255,255,255))
 
-        texto_coordenadas = letra30.render(str(pygame.mouse.get_pos()), True, (200,200,200), (0,0,0) )
         for event in pygame.event.get():
             keys = pygame.key.get_pressed()
 
@@ -389,7 +409,9 @@ def main():
                 camara_principal.sacar_foto("Prueba.jpg")
 
             if keys[K_ESCAPE]:
+                thr_latencia.exit()
                 sys.exit()
+                #TODO: Matar hilo de latencia que deja todo lento cuando no tiene respuesta
             if event.type == pygame.QUIT:
                 sys.exit()
 
@@ -418,6 +440,7 @@ def main():
             screen.blit(luces.image, luces.rect)
 
         screen.blit(texto_coordenadas, (texto_coordenadas.get_rect()))
+        screen.blit(texto_latencia, (910,147))
         pygame.display.flip()
 
 
