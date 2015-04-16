@@ -29,4 +29,4 @@ Las especificaciones constructivas se liberarán en breve. Paciencia
 - Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento
 - Implementar DHCP
 
-Nota: ** La lista general mas actualizada se encuentra en el archivo todo.txt **
+Nota: **La lista general mas actualizada se encuentra en el archivo todo.txt**
