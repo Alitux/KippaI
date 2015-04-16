@@ -1,0 +1,31 @@
+{
+  "mainFile": "", 
+  "use-tabs": false, 
+  "venv": "", 
+  "relatedProjects": [], 
+  "name": "Cliente Kippa I", 
+  "license": "GNU General Public License v3", 
+  "url": "", 
+  "pythonPath": "python2.7", 
+  "preExecScript": "", 
+  "additional_builtins": [], 
+  "programParams": "", 
+  "indentation": 4, 
+  "PYTHONPATH": "", 
+  "supported-extensions": [
+    ".md", 
+    ".txt", 
+    ".py", 
+    ".html", 
+    ".jpg", 
+    ".png", 
+    ".ui", 
+    ".css", 
+    ".json", 
+    ".js", 
+    ".ini,"
+  ], 
+  "project-type": "Import from sources", 
+  "postExecScript": "", 
+  "description": "Software Cliente para comandar el ROUV a trav\u00e9s de UDP Kippa I"
+}

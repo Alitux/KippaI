@@ -1,0 +1,11 @@
+Captura de fotografía +Cliente
+Volcado de video en un archivo local +Cliente
+Medición de latencia +Cliente
+Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra +Arduino
+Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento +Arduino
+Implementar DHCP +Arduino
+Mejorar interfaz gráfica +Grafica
+Diseñar logo +Grafica
+Escribir Proyecto +Documentacion
+Escribir manual de usuario +Documentacion
+Diagramar conexiones eléctricas

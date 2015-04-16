@@ -3,7 +3,7 @@
   "use-tabs": false, 
   "venv": "", 
   "relatedProjects": [], 
-  "name": "Cliente - Kippa I", 
+  "name": "Kippa I", 
   "license": "GNU General Public License v3", 
   "url": "", 
   "pythonPath": "python2.7", 
@@ -13,6 +13,8 @@
   "indentation": 4, 
   "PYTHONPATH": "", 
   "supported-extensions": [
+    ".md", 
+    ".txt", 
     ".py", 
     ".html", 
     ".jpg", 
@@ -21,9 +23,9 @@
     ".css", 
     ".json", 
     ".js", 
-    ".ini"
+    ".ini,"
   ], 
   "project-type": "Import from sources", 
   "postExecScript": "", 
-  "description": "Software para comunicarse con ROV Kippa I"
+  "description": "Software para controlar y comandar el ROV Kippa I"
 }

@@ -17,11 +17,16 @@ Las especificaciones constructivas se liberarán en breve. Paciencia
 * Carpeta Arduino: Firmware desarrollado para Arduino Mega. Recibe los paquetes UDP y activa los distintos componentes.
 * Carpeta Cliente: Software para el control del ROV ejecutado del lado cliente. También tiene capacidad de recibir el video de la capturadora.
 
-## A implementar ##
+## A implementar -Cliente- ##
 
-- Captura de fotografía (Cliente)
-- Volcado de video en un archivo local (Cliente)
-- Medición de latencia (Cliente)
+- Captura de fotografía 
+- Volcado de video en un archivo local 
+- Medición de latencia
+
+## A implementar -Arduino- ##
+
 - Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra
-- Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento (Arduino)
-- Implementar DHCP en Arduino (Arduino)
+- Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento
+- Implementar DHCP
+
+Nota: ** La lista general mas actualizada se encuentra en el archivo todo.txt **
