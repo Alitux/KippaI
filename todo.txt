@@ -3,8 +3,9 @@ Volcado de video en un archivo local +Cliente
 x Medición de latencia +Cliente
 Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra +Arduino
 Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento +Arduino
-Implementar DHCP +Arduino
+x Implementar DHCP +Arduino
 Mejorar interfaz gráfica +Grafica
+Agregar textos fijos a la gráfica +Grafica
 Diseñar logo +Grafica
 Desarrollar script sencillo de configuración
 Escribir Proyecto +Documentacion

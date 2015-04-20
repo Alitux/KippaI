@@ -19,7 +19,7 @@ from SimpleCV import Camera, VideoStream
 UDP_IP="0.0.0.0" # Recibir de cualquier cliente
 UDP_PORT=3400 #Puerto de conexion
 
-UDP_HOST = "10.30.121.113" #IP del ROV
+UDP_HOST = "10.30.121.107" #IP del ROV
 
 sock = socket.socket( socket.AF_INET, socket.SOCK_DGRAM ) # Inet e UDP
 

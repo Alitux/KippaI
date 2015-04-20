@@ -14,7 +14,7 @@ Este es el modulo central de control de KIPPA I
 byte mac[] = {
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
 };
-IPAddress ip(10, 30, 121, 113);
+// IPAddress ip(10, 30, 121, 113);
 
 unsigned int localPort = 3400;      // Puerto a utilizar
 
@@ -41,7 +41,7 @@ EthernetUDP Udp;
 
 void setup() {
   // Se inicia la conexion ethernet y el protocolo UDP
-  Ethernet.begin(mac, ip);
+  Ethernet.begin(mac);
   Udp.begin(localPort);
   Serial.begin(9600);
   //Luces
