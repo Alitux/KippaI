@@ -11,3 +11,4 @@ Desarrollar script sencillo de configuración
 Escribir Proyecto +Documentacion
 Escribir manual de usuario +Documentacion
 Diagramar conexiones eléctricas
+x Contradicción que permite combinar babor/estribor y avante/retroceso

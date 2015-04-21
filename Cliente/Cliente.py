@@ -82,11 +82,11 @@ def latencia():
     r_latencia=""
     while True:
         pingueo=commands.getoutput("ping -q -c2 "+str(UDP_HOST))
-        #pingueo=commands.getoutput("ping -q -c4 "+str("192.168.10.162")) #Para pruebas
+        #pingueo=commands.getoutput("ping -q -c4 "+str("www.google.com.ar")) #Para pruebas
         try:
             latencia=pingueo.split("/")[4] #Se extrae latencia
             r_latencia=latencia
-            time.sleep(5)
+            #time.sleep(5)
         except IndexError:
             r_latencia="SINRTA!"
 
@@ -297,7 +297,7 @@ def main():
         ##FIN Medición de Latencia
         texto_coordenadas = letra20.render(str(pygame.mouse.get_pos()), True, (200,200,200), (0,0,0) )
         texto_latencia = letra20.render(str(t_latencia), True, (255,255,255))
-
+        texto_host = letra20.render(str("UDP")+str(UDP_HOST)+str(":")+str(UDP_PORT), True, (255,255,255))
         for event in pygame.event.get():
             keys = pygame.key.get_pressed()
 
@@ -307,23 +307,37 @@ def main():
                     envio_paquetes(str(-8))
                     envio_paquetes(str(2)) ##Se envía Instrucciones al ROV
                     abajo.estado(True) #Estado de la Flecha
+                    #Se evita la contradicción de estado
+                    arriba.estado(False)
+                    derecha.estado(False)
+                    izquierda.estado(False)
+
                     motor_trasero_derecho.estado(True) #Estado del Motor
                     motor_trasero_izquierdo.estado(True) #Estado del Motor
                 elif retroceso==True:
                     envio_paquetes(str(-8))
                     envio_paquetes(str(-2)) ##Se envía Instrucciones al ROV
                     abajo.estado(False) #Estado de la Flecha
+                    #Se evita la contradicción de estado
+                    arriba.estado(False)
+                    derecha.estado(False)
+                    izquierda.estado(False)
+
                     motor_trasero_derecho.estado(False) #Estado del Motor
                     motor_trasero_izquierdo.estado(False) #Estado del Motor
                     retroceso=False
 
             if keys[K_UP]:
-                #FIXME: Evitar la combinación de avante/retroceso y caida Babor estribor
                 if avante==False:
                     avante=True
                     envio_paquetes(str(-8))
                     envio_paquetes(str(3))
                     arriba.estado(True)
+                    #Se evita la contradicción de estado
+                    abajo.estado(False)
+                    derecha.estado(False)
+                    izquierda.estado(False)
+
                     motor_trasero_derecho.estado(True)
                     motor_trasero_izquierdo.estado(True)
 
@@ -332,48 +346,75 @@ def main():
                     envio_paquetes(str(-8))
                     envio_paquetes(str(-3))
                     arriba.estado(False)
+                    #Se evita la contradicción de estado
+                    abajo.estado(False)
+                    derecha.estado(False)
+                    izquierda.estado(False)
+
                     motor_trasero_derecho.estado(False)
                     motor_trasero_izquierdo.estado(False)
 
             if keys[K_RIGHT]:
                 if estribor==False:
                     estribor=True
-                    #envio_paquetes(str(-8))
+                    envio_paquetes(str(-8))
                     envio_paquetes(str(4))
                     derecha.estado(True)
+                    #Se evita la contradicción de estado
+                    abajo.estado(False)
+                    arriba.estado(False)
+                    izquierda.estado(False)
+
                     motor_trasero_izquierdo.estado(True)
                 elif estribor==True:
                     estribor=False
-                    #envio_paquetes(str(-8))
+                    envio_paquetes(str(-8))
                     envio_paquetes(str(-4))
                     derecha.estado(False)
+                    izquierda.estado(False)
+                    #Se evita la contradicción de estado
+                    abajo.estado(False)
+                    arriba.estado(False)
+                    izquierda.estado(False)
+
                     motor_trasero_izquierdo.estado(False)
 
             if keys[K_LEFT]:
                 if babor==False:
                     babor=True
-                    #envio_paquetes(str(-8))
+                    envio_paquetes(str(-8))
                     envio_paquetes(str(5))
-                    motor_trasero_derecho.estado(True)
                     izquierda.estado(True)
+                    #Se evita la contradicción de estado
+                    abajo.estado(False)
+                    arriba.estado(False)
+                    derecha.estado(False)
+
+                    motor_trasero_derecho.estado(True)
+
                 elif babor==True:
                     babor=False
-                    #envio_paquetes(str(-8))
+                    envio_paquetes(str(-8))
                     envio_paquetes(str(-5))
-                    motor_trasero_derecho.estado(False)
                     izquierda.estado(False)
+                    #Se evita la contradicción de estado
+                    abajo.estado(False)
+                    arriba.estado(False)
+                    derecha.estado(False)
+
+                    motor_trasero_derecho.estado(False)
 
             if keys[K_w]:
                 if ascenso==False:
                     ascenso=True
-                    #envio_paquetes(str(-8))
+                    envio_paquetes(str(-8))
                     envio_paquetes(str(6))
                     timon_profundidad.posicion("ascender")
                     motor_central_izquierdo.estado(True)
                     motor_central_derecho.estado(True)
                 elif ascenso==True:
                     ascenso=False
-                    #envio_paquetes(str(-8))
+                    envio_paquetes(str(-8))
                     envio_paquetes(str(-6))
                     timon_profundidad.posicion("neutral")
                     motor_central_izquierdo.estado(False)
@@ -382,14 +423,14 @@ def main():
             if keys[K_s]:
                 if descenso==False:
                     descenso=True
-                    #envio_paquetes(str(-8))
+                    envio_paquetes(str(-8))
                     envio_paquetes(str(7))
                     timon_profundidad.posicion("descender")
                     motor_central_izquierdo.estado(True)
                     motor_central_derecho.estado(True)
                 elif descenso==True:
                     descenso=False
-                    #envio_paquetes(str(-8))
+                    envio_paquetes(str(-8))
                     envio_paquetes(str(-7))
                     timon_profundidad.posicion("neutral")
                     motor_central_izquierdo.estado(True)
@@ -400,10 +441,10 @@ def main():
                 pygame.key.set_repeat(0, 0)
                 if luces.estado_luces==True:
                     luces.estado_luces=False
-                    envio_paquetes(str(0))
+                    envio_paquetes(str(0)) #TODO: Revisar este código. Puede estar invertido
                 else:
                     luces.estado_luces=True
-                    envio_paquetes(str(1))
+                    envio_paquetes(str(1)) #TODO: Revisar este código. Puede estar invertido
 
             if keys[K_r]:
                 camara_principal.sacar_foto("Prueba.jpg")
@@ -440,7 +481,8 @@ def main():
             screen.blit(luces.image, luces.rect)
 
         screen.blit(texto_coordenadas, (texto_coordenadas.get_rect()))
-        screen.blit(texto_latencia, (910,147))
+        screen.blit(texto_latencia, (1003,147))
+        screen.blit(texto_host,(933,95))
         pygame.display.flip()
 
 

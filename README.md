@@ -17,6 +17,7 @@ Las especificaciones constructivas se liberarán en breve. Paciencia
 * Carpeta Arduino: Firmware desarrollado para Arduino Mega. Recibe los paquetes UDP y activa los distintos componentes.
 * Carpeta Cliente: Software para el control del ROV ejecutado del lado cliente. También tiene capacidad de recibir el video de la capturadora.
 
+
 ## A implementar -Cliente- ##
 
 - Captura de fotografía 
