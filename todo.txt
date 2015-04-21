@@ -5,7 +5,7 @@ Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra +Ar
 Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento +Arduino
 x Implementar DHCP +Arduino
 Mejorar interfaz gráfica +Grafica
-Agregar textos fijos a la gráfica +Grafica
+x Agregar textos fijos a la gráfica +Grafica
 Diseñar logo +Grafica
 Desarrollar script sencillo de configuración
 Escribir Proyecto +Documentacion
