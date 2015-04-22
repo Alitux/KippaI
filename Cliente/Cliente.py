@@ -81,12 +81,12 @@ def latencia():
     global r_latencia
     r_latencia=""
     while True:
-        pingueo=commands.getoutput("ping -q -c2 "+str(UDP_HOST))
+        #pingueo=commands.getoutput("ping -q -c2 "+str(UDP_HOST))
         #pingueo=commands.getoutput("ping -q -c4 "+str("www.google.com.ar")) #Para pruebas
         try:
             latencia=pingueo.split("/")[4] #Se extrae latencia
             r_latencia=latencia
-            #time.sleep(5)
+            time.sleep(5)
         except IndexError:
             r_latencia="SINRTA!"
 
@@ -172,7 +172,7 @@ class Motor(pygame.sprite.Sprite):
 class Camara(pygame.sprite.Sprite):
     "ImagenCamara"
     #TODO: Se debería mejorar la elección de cámara, así no se toca el código
-    elegida=0 #Por defecto es la cámara 0 o /dev/video0
+    elegida=1 #Por defecto es la cámara 0 o /dev/video0
     estado=False #Estado de cámar(False=Apagada, True=Encendida)
     norma="PALN" #Norma(Hay que ver como se puede cambiar)
     cam=""

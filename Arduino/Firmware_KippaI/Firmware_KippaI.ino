@@ -26,11 +26,11 @@ int mtbb=27; // Motor Trasero Babor B
 int mtea=28; // Motor Trasero Estribor A
 int mteb=29; // Motor Trasero Estribor B
 
-int mcba=30; // Motor Central Babor A
-int mcbb=31; // Motor Central Babor B
+int mcba=32; // Motor Central Babor A
+int mcbb=33; // Motor Central Babor B
 
-int mcea=32; // Motor Central Estribor A
-int mceb=33; // Motor Central Estribor B
+int mcea=34; // Motor Central Estribor A
+int mceb=35; // Motor Central Estribor B
 
 // Buffers para guardar paquetes recibidos
 char packetBuffer[UDP_TX_PACKET_MAX_SIZE]; //Se guarda el paquete recibido

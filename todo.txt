@@ -12,3 +12,4 @@ Escribir Proyecto +Documentacion
 Escribir manual de usuario +Documentacion
 Diagramar conexiones eléctricas
 x Contradicción que permite combinar babor/estribor y avante/retroceso
+x Modificados pines de motores centrales(Ahora están en 30,31,32 y 33)
