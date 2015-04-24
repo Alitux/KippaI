@@ -8,6 +8,8 @@ Mejorar interfaz gráfica +Grafica
 x Agregar textos fijos a la gráfica +Grafica
 Diseñar logo +Grafica
 Desarrollar script sencillo de configuración
+Cambiar norma de video +Cliente
+Corregir motores que no apagan +Grafica
 Escribir Proyecto +Documentacion
 Escribir manual de usuario +Documentacion
 Diagramar conexiones eléctricas
