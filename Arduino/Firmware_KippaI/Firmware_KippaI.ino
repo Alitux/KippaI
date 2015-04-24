@@ -73,11 +73,11 @@ void loop() {
     {
       Serial.println("RETROCESO");
       // Motor Trasero Babor
-      digitalWrite(mtba, LOW);
-      digitalWrite(mtbb, HIGH);
+      digitalWrite(mtba, HIGH);
+      digitalWrite(mtbb, LOW);
       // Motor Trasero Estribor      
-      digitalWrite(mtea, LOW);
-      digitalWrite(mteb, HIGH);
+      digitalWrite(mtea, HIGH);
+      digitalWrite(mteb, LOW);
     }
     
     if (String(packetBuffer) == String("-2"))
@@ -96,11 +96,11 @@ void loop() {
       Serial.println("Avante");
       
       // Motor Trasero Babor
-      digitalWrite(mtba, HIGH);
-      digitalWrite(mtbb, LOW);
+      digitalWrite(mtba, LOW);
+      digitalWrite(mtbb, HIGH);
       // Motor Trasero Estribor      
-      digitalWrite(mtea, HIGH);
-      digitalWrite(mteb, LOW);
+      digitalWrite(mtea, LOW);
+      digitalWrite(mteb, HIGH);
     }
     
    if (String(packetBuffer) == String("-3"))
@@ -121,8 +121,8 @@ void loop() {
     {
       Serial.println("Caer a estribor");
       // Motor Trasero Babor
-      digitalWrite(mtba, HIGH);
-      digitalWrite(mtbb, LOW);
+      digitalWrite(mtba, LOW);
+      digitalWrite(mtbb, HIGH);
     }
     if (String(packetBuffer) == String("-4"))
     {
@@ -136,8 +136,8 @@ void loop() {
     {
       Serial.println("Caer a babor");
       // Motor Trasero Babor
-      digitalWrite(mtea, HIGH);
-      digitalWrite(mteb, LOW);
+      digitalWrite(mtea, LOW);
+      digitalWrite(mteb, HIGH);
       
     }
     if (String(packetBuffer) == String("-5"))
@@ -154,8 +154,8 @@ void loop() {
       digitalWrite(mcba, HIGH);
       digitalWrite(mcbb, LOW);
       // Motor Central Estribor      
-      digitalWrite(mcea, HIGH);
-      digitalWrite(mceb, LOW);
+      digitalWrite(mcea, LOW);
+      digitalWrite(mceb, HIGH);
     }
     
     if (String(packetBuffer) == String("-6"))
@@ -176,8 +176,8 @@ void loop() {
       digitalWrite(mcba, LOW);
       digitalWrite(mcbb, HIGH);
       // Motor Central Estribor      
-      digitalWrite(mcea, LOW);
-      digitalWrite(mceb, HIGH);
+      digitalWrite(mcea, HIGH);
+      digitalWrite(mceb, LOW);
     }
     
     if (String(packetBuffer) == String("-7"))

@@ -1,15 +1,15 @@
 Captura de fotografía +Cliente
 Volcado de video en un archivo local +Cliente
 x Medición de latencia +Cliente
-Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra +Arduino
-Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento +Arduino
+Cambiar norma de cámara (De NTSC a PAL-N)
+x Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra +Arduino
 x Implementar DHCP +Arduino
 Mejorar interfaz gráfica +Grafica
 x Agregar textos fijos a la gráfica +Grafica
 Diseñar logo +Grafica
 Desarrollar script sencillo de configuración
 Cambiar norma de video +Cliente
-Corregir motores que no apagan +Grafica
+x Corregir motores que no apagan +Grafica
 Escribir Proyecto +Documentacion
 Escribir manual de usuario +Documentacion
 Diagramar conexiones eléctricas

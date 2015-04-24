@@ -22,13 +22,11 @@ Las especificaciones constructivas se liberarán en breve. Paciencia.
 
 - Captura de fotografía 
 - Volcado de video en un archivo local 
-- Invertir rutina de luces
 - Cambiar norma de cámara (De NTSC a PAL-N)
 
 ## A implementar -Arduino- ##
 
 - Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra
 - Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento
-- Invertir rutina de luces
 
 Nota: **La lista general mas actualizada se encuentra en el archivo todo.txt**
