@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+     #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 # ---------------------------
@@ -147,7 +147,7 @@ class Profundidad(pygame.sprite.Sprite):
             self.rect.centery=596 #Posición en Y
 
 class Motor(pygame.sprite.Sprite):
-    "Motor Central"
+    "Motores"
     def __init__(self, imagene, imagena, posx, posy):
         self.posx=posx
         self.posy=posy
@@ -441,10 +441,10 @@ def main():
                 pygame.key.set_repeat(0, 0)
                 if luces.estado_luces==True:
                     luces.estado_luces=False
-                    envio_paquetes(str(0)) #TODO: Revisar este código. Puede estar invertido
+                    envio_paquetes(str(0))
                 else:
                     luces.estado_luces=True
-                    envio_paquetes(str(1)) #TODO: Revisar este código. Puede estar invertido
+                    envio_paquetes(str(1))
 
             if keys[K_r]:
                 camara_principal.sacar_foto("Prueba.jpg")
