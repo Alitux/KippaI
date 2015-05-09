@@ -11,6 +11,9 @@ La comunicación entre el cliente(operador) y el ROV se realiza mediante UDP.
 Por cuestiones de latencia la transmisión de imágenes se realiza mediante cable coaxil. La misma puede ser digitalizada mediante capturadora. En nuestro caso utilizamos una EasyCAP(05e1:0408 Syntek Semiconductor Co., Ltd STK1160 Video Capture Device) con resultados mas que satisfactorios. También se podría utilizar un monitor o cualquier pantalla con entrada RCA.
 Las especificaciones constructivas se liberarán en breve. Paciencia.
 
+## Novedades ##
+
+Se suma un firmware alternativo (Firmware_KippaI_Inv) que invierte los motores
 
 ### Descripción de contenido ###
 
@@ -26,7 +29,6 @@ Las especificaciones constructivas se liberarán en breve. Paciencia.
 
 ## A implementar -Arduino- ##
 
-- Sentido de rotación de hélices (Levógiras y dextrógiras) según maniobra
-- Enlazar pines con los 3 relays restantes para simplificar la adición de equipamiento
+
 
 Nota: **La lista general mas actualizada se encuentra en el archivo todo.txt**

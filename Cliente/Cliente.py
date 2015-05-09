@@ -19,7 +19,7 @@ from SimpleCV import Camera, VideoStream
 UDP_IP="0.0.0.0" # Recibir de cualquier cliente
 UDP_PORT=3400 #Puerto de conexion
 
-UDP_HOST = "10.30.121.107" #IP del ROV
+UDP_HOST = "10.0.0.237" #IP del ROV
 
 sock = socket.socket( socket.AF_INET, socket.SOCK_DGRAM ) # Inet e UDP
 
@@ -172,7 +172,7 @@ class Motor(pygame.sprite.Sprite):
 class Camara(pygame.sprite.Sprite):
     "ImagenCamara"
     #TODO: Se debería mejorar la elección de cámara, así no se toca el código
-    elegida=0 #Por defecto es la cámara 0 o /dev/video0
+    elegida=1 #Por defecto es la cámara 0 o /dev/video0
     estado=False #Estado de cámar(False=Apagada, True=Encendida)
     norma="PALN" #Norma(Hay que ver como se puede cambiar)
     cam=""
@@ -304,7 +304,7 @@ def main():
             if keys[K_DOWN]:
                 if retroceso==False:
                     retroceso=True
-                    envio_paquetes(str(-8))
+                    #envio_paquetes(str(-8))
                     envio_paquetes(str(2)) ##Se envía Instrucciones al ROV
                     abajo.estado(True) #Estado de la Flecha
                     #Se evita la contradicción de estado
@@ -315,7 +315,7 @@ def main():
                     motor_trasero_derecho.estado(True) #Estado del Motor
                     motor_trasero_izquierdo.estado(True) #Estado del Motor
                 elif retroceso==True:
-                    envio_paquetes(str(-8))
+                    #envio_paquetes(str(-8))
                     envio_paquetes(str(-2)) ##Se envía Instrucciones al ROV
                     abajo.estado(False) #Estado de la Flecha
                     #Se evita la contradicción de estado
@@ -441,10 +441,10 @@ def main():
                 pygame.key.set_repeat(0, 0)
                 if luces.estado_luces==True:
                     luces.estado_luces=False
-                    envio_paquetes(str(0))
+                    envio_paquetes(str(1)) #Por falla de Relé
                 else:
                     luces.estado_luces=True
-                    envio_paquetes(str(1))
+                    envio_paquetes(str(0)) #Por falla de Relé
 
             if keys[K_r]:
                 camara_principal.sacar_foto("Prueba.jpg")

@@ -122,31 +122,31 @@ void loop() {
     {
       Serial.println("Caer a estribor");
       // Motor Trasero Babor
-      digitalWrite(mtba, LOW);
-      digitalWrite(mtbb, HIGH);
+      digitalWrite(mtea, LOW);
+      digitalWrite(mteb, HIGH);
     }
     if (String(packetBuffer) == String("-4"))
     {
       Serial.println("STOP estribor");
       // Motor Trasero Babor
-      digitalWrite(mtba, LOW);
-      digitalWrite(mtbb, LOW);
+      digitalWrite(mtea, LOW);
+      digitalWrite(mteb, LOW);
     }
     
     if (String(packetBuffer) == String("5"))
     {
       Serial.println("Caer a babor");
       // Motor Trasero Babor
-      digitalWrite(mtea, LOW);
-      digitalWrite(mteb, HIGH);
+      digitalWrite(mtba, LOW);
+      digitalWrite(mtbb, HIGH);
       
     }
     if (String(packetBuffer) == String("-5"))
     {
       Serial.println("STOP babor");
       // Motor Trasero Babor
-      digitalWrite(mtea, LOW);
-      digitalWrite(mteb, LOW);
+      digitalWrite(mtba, LOW);
+      digitalWrite(mtbb, LOW);
     }
     if (String(packetBuffer) == String("6"))
     {
